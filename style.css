@@ -200,6 +200,8 @@ p {
 .keyline-all { border: 1px solid #ccc; }
 .keyline-top { border-top: 1px solid #ccc; }
 .keyline-bottom { border-bottom: 1px solid #ccc; }
+.keyline-left { border-left: 1px solid #ccc; }
+.keyline-right { border-right: 1px solid #ccc; }
 
 #map, #sidebar { 
   position:absolute; 
@@ -215,6 +217,7 @@ p {
     right: 0;
     background-color: #FAFAFA;
     overflow: auto;
+    box-shadow: -2px 0px 3px 1px rgba(0,0,0,0.1);
   }
 
 .points-item {
