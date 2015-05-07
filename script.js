@@ -61,7 +61,8 @@ $(function(){
 
     loadData: function(callback){
       $.getJSON(app.deforestationPointsUrl, function(data){
-        app.map.on('style.load', function(){
+        app.map.on('load', function(){
+          console.log('load');
           callback(data);
         }); 
       });
